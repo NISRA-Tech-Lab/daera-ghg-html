@@ -4,6 +4,7 @@ export let latest_year;
 
 export function updateYearSpans(data, stat) {
     years = Object.keys(data.data[stat]);
+    
     first_year = years[0];
     latest_year = years[years.length - 1];
 
